@@ -30,7 +30,7 @@
     li a:hover{
       background-color: #111;
     }
-    .logo{
+    #logo{
       color: #ecb72f;
       padding: 14px;
       font-weight: bold;
@@ -51,33 +51,35 @@
       margin: 0px;
       padding: 15px;
     }
-    #grid{
+    .grid{
       margin-top: 50px;
       display: grid;
       grid-template-columns: 1fr 2fr;
     }
-    #part1{
+    .grid #part1{
+      margin-top: 60px;
       margin-left: 60px;
+    }
+    #part1 #query{
+      position: relative;
+      background-color: #111;
+      color: white;
+      margin-top: 50px;
+      width: 150px;
+      height: 40px;
+      text-align: center;
     }
   </style>
 </head>
 <body>
   <ul>
-    <li><div class="logo">Tiger <font color="white">Bro</font></div></li>
+    <li><div id="logo">Tiger <font color="white">Bro</font></div></li>
     <li><a href="1.html">Home</a></li>
     <li><a href="2.html">Product</a></li>
     <li><a href="3.html">About</a></li>
     <li><a href="4.html">Support</a></li>
   </ul><br>
-  <!--
-  <ol>
-    <li><a href="1.html" class="saw">Home</font></a></li>
-    <li><a href="2.html" class="saw" id="active">Product</font></a></li>
-    <li><a href="3.html">About</font></a></li>
-    <li><a href="4.html">Support</font></a></li>
-  </ol>
-  -->
-    <div id="grid">
+    <div class="grid">
         <img src="Part1 image.png" width="50%">
         <div id="part1">
           <h1>무선 공유형 PC</h1>
@@ -85,8 +87,8 @@
             한 대의 PC로 여러 대의 PC를 대체합니다.<br>
             보다 쉽게 업무를 관리할 수 있으며, 강력한 보안을 유지합니다.
           </p>
-          <div id="cs">
-            제품/서비스 문의
+          <div id="query">
+            <p>제품/서비스 문의</p>
           </div>
         </div>
     </div>
