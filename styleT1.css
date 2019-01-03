@@ -1,0 +1,144 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin: 0px;
+}
+p{
+  font-size: 18px;
+  line-height: 1.8;
+}
+h1{
+  font-size: 52px;
+}
+h2{
+  font-size: 40px;
+}
+ul{
+  list-style-type: none;
+  background-color: #333;
+  margin: 0;
+  padding: 12px;
+  overflow: hidden;
+}
+li{
+  float: left;
+  width: 90px;
+}
+li a{
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #111;
+}
+.logo1{
+  color: #ecb72f;
+  font-weight: bold;
+}
+.logo2{
+  color: white;
+  display: inline;
+}
+#grid1{
+  margin: 110px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+#grid1 #p1{
+  padding: 30px;
+}
+.query{
+  margin-top: 75px;
+  width: 170px;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+.query p{
+  margin: 0;
+  padding: 5px;
+}
+#img2{
+  position: relative;
+  background-image: url(part2img.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+#img2 #p2{
+  position: absolute;
+  bottom: 2%;
+  margin: 20px;
+  width: 460px;
+  z-index: 1;
+}
+.detail{
+  margin-top: 50px;
+  height: 40px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.detail p{
+  margin-top: 5px;
+  position: relative;
+}
+#grid3{
+  margin: 110px 0;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+#grid3 #p3{
+  margin: 20px;
+}
+#img4{
+  position: relative;
+  background-image: url(part4img.jpg);
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+#img4-cover{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+#img4 #p4{
+  position: absolute;
+  right: 1%;
+  top: 20%;
+  z-index: 2;
+}
+#p4 .detail{
+  border: 1px solid white;
+}
+#grid5{
+  margin: 110px 0;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+#grid5 #p5{
+  margin-left: 50px;
+}
+#end-query div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#end{
+  margin-top: 30px;
+  height: 100%;
+  padding-right: 30px;
+  padding-top: 20px;
+  background-color: #333;
+  text-align: right;
+  color: white;
+}
+#end p{
+  margin-top: 0;
+}
